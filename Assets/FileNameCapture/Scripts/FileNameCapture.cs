@@ -30,6 +30,7 @@ public class FileNameCapture : MonoBehaviour
         }
         DirectoryInfo directoryInfo = new DirectoryInfo(path); // 获取文件信息
         FileInfo[] fileInfos = directoryInfo.GetFiles("*", SearchOption.AllDirectories);
+
         #region 获取文件数组尺寸
         int arraySize = 0;
         for (int i = 0; i < fileInfos.Length; i++)
@@ -41,7 +42,9 @@ public class FileNameCapture : MonoBehaviour
             }
         }
         #endregion
+
         files = new string[arraySize]; // 新建数组
+
         #region 将符合要求的文件名存至数组
         int arrayIndex = 0;
         for (int i = 0; i < fileInfos.Length; i++)
