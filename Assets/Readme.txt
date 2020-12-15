@@ -6,5 +6,5 @@ Unity 2019.4.16f1c1 LTS
 // 数组尺寸将根据路径下有多少符合条件的文件自动决定
 
 20201214 Json
-
+将<Json内容>转换为<数据流>，连同<Json头>，一并发送至特定的服务器中
 // 引用Newtonsoft的.dll // Plugins/Newtonsoft.Json.dll

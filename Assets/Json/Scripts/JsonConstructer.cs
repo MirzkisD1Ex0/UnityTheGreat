@@ -50,9 +50,10 @@ public class JsonConstructer : MonoBehaviour
         jsonContent.info.position = "昆山南,嘉兴北";
         #endregion
 
-        string tempJson = JsonConvert.SerializeObject(jsonContent); // 将类序列化 // Newtonsoft.Json
-        byte[] jsonStreaming = Encoding.UTF8.GetBytes(tempJson); // 把序列化后的类转为UTF8比特流
+        string serializeJson = JsonConvert.SerializeObject(jsonContent); // 将类序列化 // Newtonsoft.Json
+        byte[] jsonStreaming = Encoding.UTF8.GetBytes(serializeJson); // 把序列化后的类转为UTF8比特流
 
+        WhatHaveWeGotHere(serializeJson);
         SendJsonToSomeWhere(jsonHead, jsonStreaming);
     }
 
@@ -72,5 +73,14 @@ public class JsonConstructer : MonoBehaviour
             yield break;
         }
         Debug.Log(www.text);
+    }
+
+    /// <summary>
+    /// 看一眼Json内容填错了没 // 反序列化
+    /// </summary>
+    private void WhatHaveWeGotHere(string serializeJson)
+    {
+        Packages tempPackages = JsonConvert.DeserializeObject<Packages>(serializeJson);
+        Debug.Log(tempPackages.id); // 偷看一眼id
     }
 }
