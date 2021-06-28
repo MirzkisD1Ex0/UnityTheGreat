@@ -11,7 +11,9 @@
         "008": "",
         "009": "",
         "010": "",
-        "011": "CMDController"
+        "011": "CMDController",
+        "012": "KeyboardSimulator",
+        "013": "BinaryConversion"
     },
     "Notes": {
         "20201127": "Unity 2019.4.16f1c1 LTS",
