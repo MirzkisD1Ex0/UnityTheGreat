@@ -1,0 +1,13 @@
+#region Environment
+Windows 10
+Unity 2020.3.12f1c1 LTS
+VSCode 1.57.1
+https://github.com/MirzkisD1Ex0/UnityIsPower
+#endregion
+
+#region Notes
+本文章仅作抛砖引玉之用，希望能够借此给予寻求思路的开发者们一些收获。
+如果内容中出现了语混序乱、错鳖字、缺少标点符号的情况还请见谅
+此工程在Github上完全开源，请随意取用。
+互联网精神永存。Hooray！
+#endregion
