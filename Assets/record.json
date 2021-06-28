@@ -1,0 +1,11 @@
+{
+    "Functions": {
+        "000": "Empty",
+        "001": "FileNameCapturer",
+        "002": "TimestampGetter",
+        "003": "FileContentGetter"
+    },
+    "Notes": {
+        "20201127":"Unity 2019.4.16f1c1 LTS"
+    }
+}
