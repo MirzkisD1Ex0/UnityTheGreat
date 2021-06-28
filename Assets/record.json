@@ -6,10 +6,15 @@
         "003": "FileContentGetter",
         "004": "FunctionFormalParameter",
         "005": "",
-        "006": "UITricker"
+        "006": "",
+        "007": "UITricker",
+        "008": "",
+        "009": "",
+        "010": "",
+        "011": "CMDController"
     },
     "Notes": {
-        "20201127":"Unity 2019.4.16f1c1 LTS",
-        "20210628":"Unity 2020.3.12f1c1 LTS"
+        "20201127": "Unity 2019.4.16f1c1 LTS",
+        "20210628": "Unity 2020.3.12f1c1 LTS"
     }
 }
