@@ -14,7 +14,9 @@
         "011": "CMDController",
         "012": "KeyboardSimulator",
         "013": "BinaryConversion",
-        "014": ""
+        "014": "",
+        "015": "",
+        "016": "SequenceFrameAnimation"
     },
     "Notes": {
         "20201127": "Unity 2019.4.16f1c1 LTS",
